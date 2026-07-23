@@ -11,12 +11,12 @@
 const skills = [
   {
 	title: "Programming",
-	description: "Python, SQL, OOP, DSA",
+	description: "Python, SQL,C++,C#, OOP, DSA",
 	border: "border-violet-300 hover:border-violet-500",
   },
   {
 	title: "Backend Development",
-	description: "FastAPI, REST APIs, PostgreSQL, Redis, Docker, Firebase",
+	description: "FastAPI, REST APIs, PostgreSQL, Docker, Firebase",
 	border: "border-sky-300 hover:border-sky-500",
   },
   {
