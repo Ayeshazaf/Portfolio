@@ -38,23 +38,35 @@ export default function Home() {
       <div className="relative z-10 flex min-h-screen flex-col items-center">
 
     {/* Heading */}
-    <div className="mt-14 text-center">
+    <div className="mt-24 text-center">
+      <div className="inline-flex items-center gap-2 rounded-full border border-green-300 bg-green-50 px-4 py-2 text-sm text-green-700 mb-6">
+    <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+    Open to AI Engineer Opportunities
+</div>
+      <h2 className="text-lg text-gray-500 font-medium">
+  Hello, I'm
+</h2>
 
-      <h1 className="text-4xl md:text-4xl font-black tracking-tight text-gray-600">
-        Hi! I'm Ayesha 
-      </h1>
+<h1 className="text-4xl md:text-3xl font-black bg-gradient-to-r from-violet-600 via-sky-500 to-pink-500 bg-clip-text text-transparent">
+  Ayesha Zafar
+</h1>
+
+<p className="text-2xl font-semibold text-gray-700 mt-3">
+  AI Backend Engineer
+</p>
+      
 
       <p className="mt-4 text-gray-500 text-lg max-w-xl mx-auto">
-        I'm a passionate AI Engineer with expertise in Multi-Agent Systems, Retrieval-Augmented Generation, and Computer Vision.  
+        I build intelligent AI systems that transform ideas into autonomous solutions—from LLM-powered applications and multi-agent workflows to Retrieval-Augmented Generation, computer vision, and scalable backend engineering.
       </p>
 
     </div>
 
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <div className="flex h-52 w-52 items-center justify-center overflow-hidden rounded-full border border-gray-200 bg-white shadow-2xl">
             <span className="text-gray-400">Avatar</span>
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-auto mb-14 flex flex-wrap justify-center gap-5">
           <Link to="/projects">

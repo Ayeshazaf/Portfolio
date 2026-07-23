@@ -67,6 +67,55 @@ const skills = [
 
 ];
 
+// WordPress Developer
+// Company Name | Month Year – Present
+
+// Developed and maintained responsive WordPress websites using Elementor and custom configurations.
+// Designed and updated landing pages, banners, and marketing content using Canva and AI-assisted design tools.
+// Managed website content, media assets, and plugin configurations.
+// Collaborated with team members to deliver website updates and client requests within deadlines.
+// Optimized websites for responsiveness, performance, and user experience.
+
+// AI Engineer (Personal Projects)
+
+// 2025 – Present
+
+// Building AI-powered applications using Python, FastAPI, LangChain, and LangGraph.
+// Developing Retrieval-Augmented Generation (RAG) systems using FAISS and embedding models.
+// Designing multi-agent AI workflows for task management, CRM, reporting, and document intelligence.
+// Building NLP applications using Hugging Face Transformers and PyTorch.
+// Building Computer Vision applications using OpenCV and YOLO for object detection and image analysis.
+// Developing backend APIs for AI systems with FastAPI.
+const experiences = [
+	{
+		title: "WordPress Developer",
+		company: "Branive",
+		duration: "April 2026 – Present",
+		description: [
+			"Developed and maintained responsive WordPress websites using Elementor and custom configurations.",
+			"Designed and updated landing pages, banners, and marketing content using Canva and AI-assisted design tools.",
+			"Managed website content, media assets, and plugin configurations.",
+			"Collaborated with team members to deliver website updates and client requests within deadlines.",
+			"Optimized websites for responsiveness, performance, and user experience."
+		],
+		border: "border-violet-300 hover:border-violet-500"
+	},
+	{
+		title: "AI Engineer (Personal Projects)",
+		company: "",
+		duration: "2025 – Present",
+		description: [
+			"Building AI-powered applications using Python, FastAPI, LangChain, and LangGraph.",
+			"Developing Retrieval-Augmented Generation (RAG) systems using FAISS and embedding models.",
+			"Designing multi-agent AI workflows for task management, CRM, reporting, and document intelligence.",
+			"Building NLP applications using Hugging Face Transformers and PyTorch.",
+			"Building Computer Vision applications using OpenCV and YOLO for object detection and image analysis.",
+			"Developing backend APIs for AI systems with FastAPI."
+		],
+		border: "border-yellow-300 hover:border-yellow-500"
+	}
+]
+
 export default function Skills() {
   return (
     <section
@@ -75,7 +124,7 @@ export default function Skills() {
     >
       <div className="text-center mb-16 flex flex-col items-center justify-center">
       <h2 className="text-5xl font-bold text-center text-gray-900 mb-16">
-        My Skills
+        My Skills and Experience
       </h2>
 
       <a href="/" className="rounded-full border-2 border-sky-300 bg-white px-8 py-3 shadow-lg transition-all duration-300 hover:border-sky-500">
@@ -121,7 +170,51 @@ export default function Skills() {
 
         ))}
 
+		</div>
+		<h2 className="mt-16 text-5xl font-bold text-center text-gray-900 mb-16">
+        My Experience
+      </h2>
+	    <div className="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+
+        {experiences.map((experience) => (
+
+          <div
+            key={experience.title}
+            className={`
+            bg-white
+            rounded-3xl
+            border-2
+            ${experience.border}
+            shadow-xl
+            hover:shadow-2xl
+            transition-all
+            duration-300
+            hover:-translate-y-2
+            p-8
+            `}
+          >
+
+            <h3 className="text-2xl font-bold text-gray-900">
+              {experience.title}
+            </h3>
+
+			<p>{experience.company} | {experience.duration}</p>
+
+            <p className="mt-5 text-gray-600 leading-7">
+              <ul>
+				{experience.description.map((item, index) => (
+				  <li key={index} className="list-disc ml-5">
+					{item}
+				  </li>
+				))}
+			  </ul>
+            </p>
+
+          </div>
+
+        ))}
       </div>
+	  
     </section>
   );
 }
