@@ -41,7 +41,7 @@ const skills = [
   },
   {
 	title: "Agentic AI",
-	description: "LangChain, MCP, A2A, Tool Calling, Multi-Agent Systems",
+	description: "LangChain, Tool Calling, Multi-Agent Systems",
 	border: "border-red-300 hover:border-red-500",
   },
   {

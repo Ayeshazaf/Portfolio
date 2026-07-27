@@ -50,7 +50,13 @@ const projects = [
     github: "https://github.com/Ayeshazaf/sms_spam_detection",
     border: "border-red-300 hover:border-red-500",
   },
-
+  {
+    title: "Outfitters-Clone",
+    description: "Developed a responsive e-commerce website clone of Outfitters using React.js, Tailwind CSS, and integrated APIs for product listing.",
+    tech: "Frontend Development • React.js • Tailwind CSS • API Integration Backend Development • Node.js • Express.js • MongoDB",
+    github: "https://github.com/Ayeshazaf/Outfitters_clone",
+    border: "border-violet-300 hover:border-violet-500",
+  }
 
 ];
 
