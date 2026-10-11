@@ -87,19 +87,19 @@ const skills = [
 // Building Computer Vision applications using OpenCV and YOLO for object detection and image analysis.
 // Developing backend APIs for AI systems with FastAPI.
 const experiences = [
-	{
-		title: "WordPress Developer",
-		company: "Branive",
-		duration: "April 2026 – Present",
-		description: [
-			"Developed and maintained responsive WordPress websites using Elementor and custom configurations.",
-			"Designed and updated landing pages, banners, and marketing content using Canva and AI-assisted design tools.",
-			"Managed website content, media assets, and plugin configurations.",
-			"Collaborated with team members to deliver website updates and client requests within deadlines.",
-			"Optimized websites for responsiveness, performance, and user experience."
-		],
-		border: "border-violet-300 hover:border-violet-500"
-	},
+	// {
+	// 	title: "WordPress Developer",
+	// 	company: "Branive",
+	// 	duration: "April 2026 – Present",
+	// 	description: [
+	// 		"Developed and maintained responsive WordPress websites using Elementor and custom configurations.",
+	// 		"Designed and updated landing pages, banners, and marketing content using Canva and AI-assisted design tools.",
+	// 		"Managed website content, media assets, and plugin configurations.",
+	// 		"Collaborated with team members to deliver website updates and client requests within deadlines.",
+	// 		"Optimized websites for responsiveness, performance, and user experience."
+	// 	],
+	// 	border: "border-violet-300 hover:border-violet-500"
+	// },
 	{
 		title: "AI Engineer (Personal Projects)",
 		company: "",
